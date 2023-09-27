@@ -1,0 +1,90 @@
+    /* =======//======= */
+/* copyright 2023 @YuriMatsumoto
+    /* =======//======= */
+
+    /* =======//======= */
+    /* CUSTOM PROPERTY 
+    /* =======//======= */
+:root {
+    /* colors */
+    --cor1: hsl(225, 10%, 16%);
+    --cor2: hsl(170, 21%, 5%);
+    --cor3: hsl(228, 13%, 15%);
+    --cor4: hsl(207, 19%, 11%);
+    --cor5: hsl(0, 3%, 80%);
+    --cor6: hsl(229, 15%, 21%);
+    --cor7: hsl(216, 22%, 18%);
+    --cor8: hsl(0, 7%, 88%);
+    --cor9: hsl(57, 97%, 45%);
+    --cor10: hsl(253, 21%, 13%);
+    --cor11: hsl(0, 0%, 74%);
+    --cor12: hsl(0, 100%, 100%);
+    --cor13: hsl(0, 0%, 0%);
+    --cor14: hsl(0, 0%, 20%);
+
+    /* fonte */
+    --ff-skranji: 'Skranji', cursive;
+
+    --fs-1: 36px;
+    --fs-2: 32px;
+    --fs-3: 30px;
+    --fs-4: 24px;
+    --fs-5: 20px;
+    --fs-6: 18px;
+    --fs-7: 16px;
+    --fs-8: 15px;
+    --fs-9: 14px;
+    --fs-10: 13px;
+    --fs-11: 12px;
+    --fs-12: 11px;
+
+    --fw-500: 500px;
+    --fw-700: 700px;
+    
+    /* Transition */
+    --transition-1: 0.15s ease;
+    --transition-2: 0.25s ease-in;
+
+    /* spacing */
+    --section-padding: 100px;
+}
+
+    /* =======//======= */
+    /* RESET
+    /* =======//======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a,
+img,
+span,
+input,
+buttons,
+ion-icon {
+    display: block;
+}
+
+html {
+    font-family: var(--ff-skranji);
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--cor1);
+}
+
+body.active {
+    overflow: hidden;
+}
+
