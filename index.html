@@ -28,11 +28,14 @@
         href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" 
         rel="stylesheet">
 </head>
+
+
 <body>
 
     <!-- Header -->
     <header class="header">
         <div class="container">
+            <div class="overlay" data-overlay></div>
             <a href="index.html" class="logo">
                 <img src="assets/img/Logo.png" alt="logo do site" width="100px">
             </a>
@@ -52,23 +55,23 @@
                         <option value="es">ES</option>
                     </select>
                 </div>
+
+                <button class="btn btn-primary">Entrar</button>
             </div>
 
-            <button class="btn btn-primary">Entrar</button>
-
-            <button class="btn-mobile">
+            <button class="btn-mobile" data-menu-open>
                 <a href="#">
-                    <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>                </a>
+                <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>                </a>
             </button>
 
-            <nav class="navbar">
+            <nav class="navbar" data-navbar>
 
                 <div class="navbar-top">
-                    <a href="index.html">
+                    <a href="index.html" id="logo2">
                         <img src="assets/img/Logo.png" alt="logo do site" width="100px">
                     </a>
 
-                    <button class="menu-close">
+                    <button class="menu-close" data-menu-close>
                         <ion-icon name="close-outline"></ion-icon>
                     </button>
                 </div>
@@ -125,6 +128,7 @@
             </nav>
         </div>
     </header>
+    
 
     <!-- link do JS -->
     <script src="assets/js/script.js"></script>
