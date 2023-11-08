@@ -52,6 +52,26 @@
     /* =======//======= */
     /* RESET
     /* =======//======= */
+
+.h1, 
+.h2, 
+.h3{
+    color: var(--cor7);
+    line-height: 40px;
+}
+
+.h1{
+    font-size: var(--fs-1);
+}
+
+.h2{
+    font-size: var(--fs-2);
+}
+
+.h3{
+    font-size: var(--fs-6);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -214,4 +234,38 @@ header:hover{
 
 .overlay.active{
     pointer-events: all;
+}
+
+    /* =======//======= */
+    /* BANNER
+    /* =======//======= */
+
+.hero{
+    background: url(../img/bannerHino.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-block: var(--section-padding);
+}
+
+.hero-content{
+    margin-top: 60px;
+}
+
+.hero-subtitle{
+    color: var(--cor6);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-700);
+    margin-bottom: 20px;
+}
+
+.hero-title{
+    margin-bottom: 30px;
+}
+
+.hero-title > strong{
+    color: var(--cor6);
 }
